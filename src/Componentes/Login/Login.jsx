@@ -9,7 +9,7 @@ export class Login extends React.Component {
     render() {
         return (
         <div className="base-container">
-            <div className="header">Iniciar Sesion</div>
+            {/* <div className="header">Iniciar Sesion</div> */}
             <div className="content">
                 <div className="image">
                     <img src={loginImg} />
@@ -17,7 +17,7 @@ export class Login extends React.Component {
                 <div className="form">
                     <div className="form-group">
                         <label htmlFor="Usuario">Usuario</label>
-                        <input type="text" name="usuario" placeholder="Nombre De Usuario" />
+                        <input type="text" name="usuario" placeholder="Nombre de usuario" />
                     </div>
                     <div className="form-group">
                         <label htmlFor="Contraseña">Contraseña</label>
